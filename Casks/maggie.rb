@@ -14,7 +14,7 @@ cask "maggie" do
 
   # Maggie updates itself from its releases.
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Maggie.app"
 
