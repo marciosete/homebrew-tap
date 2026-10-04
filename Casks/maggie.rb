@@ -1,6 +1,6 @@
 cask "maggie" do
-  version "0.6.0"
-  sha256 "d20ddc7b85a5dcbb1b6412b71711cb272023bb9a0331962968b40faac24cbb81"
+  version "0.9.2"
+  sha256 "a69636bc328751116d14674c1398911434cffb14dac229bbf14478dc714a9ebb"
 
   url "https://github.com/marciosete/maggie/releases/download/v#{version}/Maggie.dmg"
   name "Maggie"
