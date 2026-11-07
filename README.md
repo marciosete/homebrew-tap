@@ -1,13 +1,14 @@
-# Homebrew tap for Maggie
+# This tap has moved
 
-[Maggie](https://github.com/marciosete/maggie) is a macOS terminal for a flock
-of Claude Code sessions, built on Ghostty.
+Maggie's Homebrew cask lives in
+[marciosete/homebrew-maggie](https://github.com/marciosete/homebrew-maggie):
 
 ```sh
-brew install --cask marciosete/tap/maggie
+brew untap marciosete/tap
+brew install --cask marciosete/maggie/maggie
 ```
 
-The cask follows Maggie's [latest release](https://github.com/marciosete/maggie/releases/latest);
-a workflow here bumps it within the hour. Once installed, Maggie updates
-itself from the same releases, so `brew upgrade` is only needed to keep the
-cask's version in step.
+This repository is archived and no longer updated. An existing install keeps
+working: Maggie updates itself from its
+[releases](https://github.com/marciosete/maggie/releases/latest), so only the
+cask's recorded version falls behind.
